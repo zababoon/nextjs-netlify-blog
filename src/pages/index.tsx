@@ -11,12 +11,13 @@ export default function Index() {
       <OpenGraphMeta url={"/"} />
       <TwitterCardMeta url={"/"} />
       <div className="container">
-        <div>
-          <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
-          </h1>
+        <div className="handle">
+          <h3>
+            Hi, My name is Sergey. I'm a software developer and a dreamer.
+              <p></p>
+              This is a place where I will try to share some of my thoughts.
+          </h3>
           <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
           <SocialList />
         </div>
       </div>

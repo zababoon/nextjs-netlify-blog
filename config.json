@@ -1,19 +1,40 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "http://lifelonglog.com",
+  "site_title": "Sergey's Blog, Software Developer, Freelancer",
+  "site_description": "Blog about thoughts I have",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Sergey Sergeev"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "Software Developer"
+    },
+    {
+      "keyword": "Freelancer"
+    },
+    {
+      "keyword": "Backend Integrations"
+    },
+    {
+      "keyword": "Infrastructure Projects"
+    },
+    {
+      "keyword": "REST/SOAP"
     },
     {
       "keyword": "React"
+    },
+    {
+      "keyword": "Java"
+    },
+    {
+      "keyword": "Javascript"
+    },
+    {
+      "keyword": "Spring"
     }
   ],
-  "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "posts_per_page": 10,
+  "twitter_account": "@ssergeev",
+  "github_account": "zababoon"
 }
