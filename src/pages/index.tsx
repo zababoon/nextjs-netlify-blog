@@ -11,13 +11,19 @@ export default function Index() {
       <OpenGraphMeta url={"/"} />
       <TwitterCardMeta url={"/"} />
       <div className="container">
+          <div>
+              <img src={"/images/profile.png"} width={145} height={150}>
+              </img>
+          </div>
         <div className="handle">
+
           <h3>
-            Hi, My name is Sergey. I'm a software developer and a dreamer.
+
+            Hi there! My name is Sergey. I'm a software developer.
               <p></p>
-              This is a place where I will try to share some of my thoughts.
+              Feel free to take a look at my projects and read my blog.
           </h3>
-          <span className="handle">@nextjs-netlify-blog</span>
+          {/*<span className="handle">@nextjs-netlify-blog</span>*/}
           <SocialList />
         </div>
       </div>
@@ -28,7 +34,14 @@ export default function Index() {
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
+          flex-direction: column;
         }
+        
+        img {
+            filter: grayscale(100%);
+            border-radius: 10%;
+        }
+        
         h1 {
           font-size: 2.5rem;
           margin: 0;

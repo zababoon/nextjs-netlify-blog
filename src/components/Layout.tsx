@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navigation from "./Navigation";
+import Logo from "./Logo";
 
 type Props = {
   children: React.ReactNode;
@@ -14,7 +15,10 @@ export default function Layout({ children }: Props) {
         <link rel="apple-touch-icon" href="/icon.png" />
         <meta name="theme-color" content="#fff" />
       </Head>
+
+
       <nav>
+          <Logo/>
         <Navigation />
       </nav>
       <main>{children}</main>
@@ -25,6 +29,7 @@ export default function Layout({ children }: Props) {
             padding: 4rem 0;
             box-sizing: border-box;
             height: 100%;
+            background-color: #3a465a;
           }
           main {
             display: flex;

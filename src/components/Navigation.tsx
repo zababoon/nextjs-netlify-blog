@@ -8,7 +8,7 @@ export default function Navigation() {
   const [active, setActive] = useState(false);
   return (
     <>
-      <Burger active={active} onClick={() => setActive(!active)} />
+      {/*<Burger active={active} onClick={() => setActive(!active)} />*/}
       <div className={"container " + (active ? "active" : "")}>
         <ul>
           <li>
@@ -32,6 +32,7 @@ export default function Navigation() {
           {`
             .container {
               width: 0;
+              background-color: #3a465a;
             }
             ul {
               opacity: 0;
@@ -43,7 +44,8 @@ export default function Navigation() {
               padding: 0;
               position: fixed;
               top: 0;
-              background-color: #fff;
+              // background-color: #fff;
+              text-color: red;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -64,13 +66,15 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              #color: #222;
+              color: #2fc5ec;
             }
 
             @media (min-width: 769px) {
               .container {
                 width: 7rem;
                 display: block;
+                background-color: #3a465a;
               }
               ul {
                 opacity: 1;
